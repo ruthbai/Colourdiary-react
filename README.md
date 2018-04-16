@@ -1,2 +1,2 @@
-# Colourdiary-react
-Colour diary made using react 
+# Colour Diary
+Colour Diary in react version.
