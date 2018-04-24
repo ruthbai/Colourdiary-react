@@ -2,7 +2,6 @@ import React from "react";
 import css from "./../App.css";
 
 
-
 class Titles extends React.Component {
     render() {
       return (
