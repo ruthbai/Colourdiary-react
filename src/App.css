@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+
+
+
+
+body {
+    font-family: "Open Sans", serif;
+    background-image: url(https://i.gifer.com/IsJ.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  h1,p {
+    color: white;
+    text-align: center;
+  }
+
+  form {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  .input{
+    padding: 10.5px 15px;
+  }
+
+  button{
+    background-color: rgb(1, 165, 88); /* Green */
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-family: "Open Sans", serif;
+  }
+
+  .spacing{
+      padding-top: 140px;
+      padding-bottom: 60px;
+  }

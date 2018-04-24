@@ -3,6 +3,7 @@ import Titles from "./components/Titles";
 import Form from "./components/Form";
 import Weather from "./components/Weather";
 
+
 const API_KEY = "0732a0e505d94621762381e39a11559a";
 
 
@@ -62,5 +63,7 @@ class App extends React.Component {
         );
     }
 }
+
+
 
 export default App;
