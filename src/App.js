@@ -8,15 +8,20 @@ const API_KEY = "0732a0e505d94621762381e39a11559a";
 
 
 class App extends React.Component {
-
-    state= {
-     temperature: undefined,
-     city: undefined,
-     country: undefined,
-     humidity: undefined,
-     description: undefined,
-     error: undefined
+    constructor(props){
+        super(props)
+        this.state = {
+            temperature: undefined,
+            city: undefined,
+            country: undefined,
+            humidity: undefined,
+            description: undefined,
+            error: undefined
+           }
+           this.getWeather = this.getWeather.bind(this)
     }
+   
+    
 
 
     getWeather = async (e) => { //need to call event (e) in order to use in underneath

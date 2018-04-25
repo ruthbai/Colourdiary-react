@@ -40,3 +40,7 @@ body {
       padding-top: 140px;
       padding-bottom: 60px;
   }
+
+  img {
+    width: 50px;
+  }
