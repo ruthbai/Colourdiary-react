@@ -8,12 +8,25 @@ renderImage(temp){
 }
 
     renderImg(temp){
-        if(temp > 18){
-            return <img src='https://i.pinimg.com/originals/2d/33/55/2d3355b50cd7cc8d2118de777a9160d2.jpg' />
-        } else {
-            return <img src='http://jewel925.com/wp-content/uploads/egmJGII.jpg' />
+        if(temp > 30){
+            return <img src='../images/hot.jpg' />
+        } else if (temp > 27){
+            return <img src='../images/hot2.jpg' />
+        } else if(temp > 24){
+            return <img src='../images/warm.jpg' />
+        }else if(temp > 21){
+            return <img src='../images/warm2.jpg' />
+        }else if(temp > 18){
+            return <img src='../images/cold.jpg' />
+        }else if(temp > 15){
+            return <img src='../images/cold2.jpg' />
+        }else if(temp > 12){
+            return <img src='../images/cold3.jpg' />
+        }else{
+            return <img src='../images/cold4.jpg'/>
         }
-    }
+        }
+
 
     render() {
         return (
@@ -24,6 +37,7 @@ renderImage(temp){
                 {this.props.description && <p>Conditions: {this.props.description}</p>}
                 {this.props.error && <p>{this.props.error}</p>}
                 {this.props.temperature && this.renderImg(this.props.temperature)}
+                {/* {this.props.desctiption && this.renderImg(this.props)} */}
             </div>
         );
     }

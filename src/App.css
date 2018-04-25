@@ -42,7 +42,9 @@ body {
   }
 
   img {
-    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    width: 30px;
     height: 30px;
     margin-left: 48%;
     margin-top: 30px;
